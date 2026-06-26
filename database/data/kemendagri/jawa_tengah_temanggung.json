@@ -1,0 +1,1192 @@
+{
+    "provinsi": {
+        "kode": "33",
+        "nama": "JAWA TENGAH"
+    },
+    "kabupaten": {
+        "kode": "3323",
+        "nama": "TEMANGGUNG"
+    },
+    "kecamatan": [
+        {
+            "kode": "3323012",
+            "nama": "BANSARI",
+            "desa": [
+                {
+                    "kode": "3323012002",
+                    "nama": "BALESARI"
+                },
+                {
+                    "kode": "3323012007",
+                    "nama": "BANSARI"
+                },
+                {
+                    "kode": "3323012003",
+                    "nama": "CAMPURANOM"
+                },
+                {
+                    "kode": "3323012012",
+                    "nama": "CANDISARI"
+                },
+                {
+                    "kode": "3323012008",
+                    "nama": "GENTINGSARI"
+                },
+                {
+                    "kode": "3323012013",
+                    "nama": "GUNUNGSARI"
+                },
+                {
+                    "kode": "3323012004",
+                    "nama": "MOJOSARI"
+                },
+                {
+                    "kode": "3323012005",
+                    "nama": "MRANGGEN KIDUL"
+                },
+                {
+                    "kode": "3323012006",
+                    "nama": "MRANGGEN TENGAH"
+                },
+                {
+                    "kode": "3323012010",
+                    "nama": "PURBOREJO"
+                },
+                {
+                    "kode": "3323012011",
+                    "nama": "REJOSARI"
+                },
+                {
+                    "kode": "3323012009",
+                    "nama": "TANUREJO"
+                },
+                {
+                    "kode": "3323012001",
+                    "nama": "TLOGOWERO"
+                }
+            ]
+        },
+        {
+            "kode": "3323121",
+            "nama": "BEJEN",
+            "desa": [
+                {
+                    "kode": "3323121005",
+                    "nama": "BANJARSARI"
+                },
+                {
+                    "kode": "3323121006",
+                    "nama": "CONGKRANG"
+                },
+                {
+                    "kode": "3323121004",
+                    "nama": "JLEGONG"
+                },
+                {
+                    "kode": "3323121007",
+                    "nama": "KEBONDALEM"
+                },
+                {
+                    "kode": "3323121008",
+                    "nama": "KEMUNING"
+                },
+                {
+                    "kode": "3323121002",
+                    "nama": "LARANGAN LUWOK"
+                },
+                {
+                    "kode": "3323121001",
+                    "nama": "LOWUNGU"
+                },
+                {
+                    "kode": "3323121014",
+                    "nama": "NGALIYAN"
+                },
+                {
+                    "kode": "3323121003",
+                    "nama": "PRANGKOKAN"
+                },
+                {
+                    "kode": "3323121010",
+                    "nama": "SELOSABRANG"
+                },
+                {
+                    "kode": "3323121012",
+                    "nama": "TANJUNG SARI"
+                }
+            ]
+        },
+        {
+            "kode": "3323020",
+            "nama": "BULU",
+            "desa": [
+                {
+                    "kode": "3323020005",
+                    "nama": "BANSARI"
+                },
+                {
+                    "kode": "3323020018",
+                    "nama": "CAMPURSARI"
+                },
+                {
+                    "kode": "3323020023",
+                    "nama": "DANUPAYAN"
+                },
+                {
+                    "kode": "3323020015",
+                    "nama": "GANDUREJO"
+                },
+                {
+                    "kode": "3323020013",
+                    "nama": "GONDOSULI"
+                },
+                {
+                    "kode": "3323020008",
+                    "nama": "MALANGSARI"
+                },
+                {
+                    "kode": "3323020009",
+                    "nama": "MONDORETNO"
+                },
+                {
+                    "kode": "3323020022",
+                    "nama": "NGIMBRANG"
+                },
+                {
+                    "kode": "3323020003",
+                    "nama": "PAGERGUNUNG"
+                },
+                {
+                    "kode": "3323020010",
+                    "nama": "PAKUREJO"
+                },
+                {
+                    "kode": "3323020007",
+                    "nama": "PANDEMULYO"
+                },
+                {
+                    "kode": "3323020012",
+                    "nama": "PASURUHAN"
+                },
+                {
+                    "kode": "3323020011",
+                    "nama": "PENGILON"
+                },
+                {
+                    "kode": "3323020021",
+                    "nama": "PUTAT"
+                },
+                {
+                    "kode": "3323020019",
+                    "nama": "TEGALLURUNG"
+                },
+                {
+                    "kode": "3323020014",
+                    "nama": "TEGALREJO"
+                },
+                {
+                    "kode": "3323020004",
+                    "nama": "WONOSARI"
+                },
+                {
+                    "kode": "3323020002",
+                    "nama": "WONOTIRTO"
+                }
+            ]
+        },
+        {
+            "kode": "3323120",
+            "nama": "CANDIROTO",
+            "desa": [
+                {
+                    "kode": "3323120003",
+                    "nama": "BANTIR"
+                },
+                {
+                    "kode": "3323120008",
+                    "nama": "BATURSARI"
+                },
+                {
+                    "kode": "3323120010",
+                    "nama": "CANDIROTO"
+                },
+                {
+                    "kode": "3323120001",
+                    "nama": "CANGGAL"
+                },
+                {
+                    "kode": "3323120011",
+                    "nama": "GUNUNGPAYUNG"
+                },
+                {
+                    "kode": "3323120002",
+                    "nama": "KENTENGSARI"
+                },
+                {
+                    "kode": "3323120005",
+                    "nama": "KRAWITAN"
+                },
+                {
+                    "kode": "3323120009",
+                    "nama": "LEMPUYANG"
+                },
+                {
+                    "kode": "3323120007",
+                    "nama": "MENTO"
+                },
+                {
+                    "kode": "3323120004",
+                    "nama": "NGABEAN"
+                },
+                {
+                    "kode": "3323120013",
+                    "nama": "PLOSOGADEN"
+                },
+                {
+                    "kode": "3323120014",
+                    "nama": "SIDOHARJO"
+                }
+            ]
+        },
+        {
+            "kode": "3323111",
+            "nama": "GEMAWANG",
+            "desa": [
+                {
+                    "kode": "3323111006",
+                    "nama": "BANARAN"
+                },
+                {
+                    "kode": "3323111005",
+                    "nama": "GEMAWANG"
+                },
+                {
+                    "kode": "3323111001",
+                    "nama": "JAMBON"
+                },
+                {
+                    "kode": "3323111002",
+                    "nama": "KALIBANGER"
+                },
+                {
+                    "kode": "3323111010",
+                    "nama": "KARANGSENENG"
+                },
+                {
+                    "kode": "3323111004",
+                    "nama": "KEMIRIOMBO"
+                },
+                {
+                    "kode": "3323111007",
+                    "nama": "KREMPONG"
+                },
+                {
+                    "kode": "3323111008",
+                    "nama": "MUNCAR"
+                },
+                {
+                    "kode": "3323111003",
+                    "nama": "NGADISEPI"
+                }
+            ]
+        },
+        {
+            "kode": "3323110",
+            "nama": "JUMO",
+            "desa": [
+                {
+                    "kode": "3323110004",
+                    "nama": "BARANG"
+                },
+                {
+                    "kode": "3323110019",
+                    "nama": "GEDONGSARI"
+                },
+                {
+                    "kode": "3323110008",
+                    "nama": "GIYONO"
+                },
+                {
+                    "kode": "3323110009",
+                    "nama": "GUNUNG GEMPOL"
+                },
+                {
+                    "kode": "3323110012",
+                    "nama": "JAMUSAN"
+                },
+                {
+                    "kode": "3323110007",
+                    "nama": "JOMBOR"
+                },
+                {
+                    "kode": "3323110010",
+                    "nama": "JUMO"
+                },
+                {
+                    "kode": "3323110005",
+                    "nama": "KARANGTEJO"
+                },
+                {
+                    "kode": "3323110011",
+                    "nama": "KERTOSARI"
+                },
+                {
+                    "kode": "3323110006",
+                    "nama": "KETITANG"
+                },
+                {
+                    "kode": "3323110001",
+                    "nama": "MOROBONGO"
+                },
+                {
+                    "kode": "3323110003",
+                    "nama": "PADURESO"
+                },
+                {
+                    "kode": "3323110002",
+                    "nama": "SUKOMARTO"
+                }
+            ]
+        },
+        {
+            "kode": "3323070",
+            "nama": "KALORAN",
+            "desa": [
+                {
+                    "kode": "3323070006",
+                    "nama": "GANDON"
+                },
+                {
+                    "kode": "3323070001",
+                    "nama": "GANDULAN"
+                },
+                {
+                    "kode": "3323070005",
+                    "nama": "GEBLOG"
+                },
+                {
+                    "kode": "3323070009",
+                    "nama": "GETAS"
+                },
+                {
+                    "kode": "3323070010",
+                    "nama": "KALIMANGGIS"
+                },
+                {
+                    "kode": "3323070012",
+                    "nama": "KALORAN"
+                },
+                {
+                    "kode": "3323070003",
+                    "nama": "KEBLUKAN"
+                },
+                {
+                    "kode": "3323070013",
+                    "nama": "KEMIRI"
+                },
+                {
+                    "kode": "3323070008",
+                    "nama": "KWARAKAN"
+                },
+                {
+                    "kode": "3323070002",
+                    "nama": "TEGOWANUH"
+                },
+                {
+                    "kode": "3323070014",
+                    "nama": "TEMPURAN"
+                },
+                {
+                    "kode": "3323070011",
+                    "nama": "TLOGOWUNGU"
+                }
+            ]
+        },
+        {
+            "kode": "3323080",
+            "nama": "KANDANGAN",
+            "desa": [
+                {
+                    "kode": "3323080004",
+                    "nama": "BALEDU"
+                },
+                {
+                    "kode": "3323080016",
+                    "nama": "BANJARSARI"
+                },
+                {
+                    "kode": "3323080015",
+                    "nama": "BLIMBING"
+                },
+                {
+                    "kode": "3323080003",
+                    "nama": "CARUBAN"
+                },
+                {
+                    "kode": "3323080007",
+                    "nama": "GESING"
+                },
+                {
+                    "kode": "3323080008",
+                    "nama": "KANDANGAN"
+                },
+                {
+                    "kode": "3323080013",
+                    "nama": "KEDAWUNG"
+                },
+                {
+                    "kode": "3323080009",
+                    "nama": "KEMBANGSARI"
+                },
+                {
+                    "kode": "3323080006",
+                    "nama": "MALEBO"
+                },
+                {
+                    "kode": "3323080014",
+                    "nama": "MARGOLELO"
+                },
+                {
+                    "kode": "3323080011",
+                    "nama": "NGEMPLAK"
+                },
+                {
+                    "kode": "3323080005",
+                    "nama": "ROWO"
+                },
+                {
+                    "kode": "3323080010",
+                    "nama": "SAMIRANAN"
+                },
+                {
+                    "kode": "3323080012",
+                    "nama": "TLOGOPUCANG"
+                },
+                {
+                    "kode": "3323080002",
+                    "nama": "WADAS"
+                }
+            ]
+        },
+        {
+            "kode": "3323090",
+            "nama": "KEDU",
+            "desa": [
+                {
+                    "kode": "3323090015",
+                    "nama": "BANDUNGGEDE"
+                },
+                {
+                    "kode": "3323090014",
+                    "nama": "BOJONEGORO"
+                },
+                {
+                    "kode": "3323090003",
+                    "nama": "CANDIMULYA"
+                },
+                {
+                    "kode": "3323090001",
+                    "nama": "DANUREJO"
+                },
+                {
+                    "kode": "3323090013",
+                    "nama": "GONDANGWAYANG"
+                },
+                {
+                    "kode": "3323090011",
+                    "nama": "KARANGTEJO"
+                },
+                {
+                    "kode": "3323090009",
+                    "nama": "KUNDISARI"
+                },
+                {
+                    "kode": "3323090006",
+                    "nama": "KUTOANYAR"
+                },
+                {
+                    "kode": "3323090010",
+                    "nama": "MERGOWATI"
+                },
+                {
+                    "kode": "3323090005",
+                    "nama": "MOJOTENGAH"
+                },
+                {
+                    "kode": "3323090012",
+                    "nama": "NGADIMULYO"
+                },
+                {
+                    "kode": "3323090002",
+                    "nama": "SALAMSARI"
+                },
+                {
+                    "kode": "3323090008",
+                    "nama": "TEGALSARI"
+                }
+            ]
+        },
+        {
+            "kode": "3323011",
+            "nama": "KLEDUNG",
+            "desa": [
+                {
+                    "kode": "3323011001",
+                    "nama": "BATURSARI"
+                },
+                {
+                    "kode": "3323011004",
+                    "nama": "CANGGAL"
+                },
+                {
+                    "kode": "3323011003",
+                    "nama": "JAMBU"
+                },
+                {
+                    "kode": "3323011010",
+                    "nama": "JEKETRO"
+                },
+                {
+                    "kode": "3323011013",
+                    "nama": "KALIREJO"
+                },
+                {
+                    "kode": "3323011005",
+                    "nama": "KRUWISAN"
+                },
+                {
+                    "kode": "3323011009",
+                    "nama": "KWADUNGAN GUNUNG"
+                },
+                {
+                    "kode": "3323011008",
+                    "nama": "KWADUNGAN JURANG"
+                },
+                {
+                    "kode": "3323011012",
+                    "nama": "PAPONAN"
+                },
+                {
+                    "kode": "3323011006",
+                    "nama": "PETARANGAN"
+                },
+                {
+                    "kode": "3323011007",
+                    "nama": "TLAHAP"
+                },
+                {
+                    "kode": "3323011011",
+                    "nama": "TUKSARI"
+                }
+            ]
+        },
+        {
+            "kode": "3323050",
+            "nama": "KRANGGAN",
+            "desa": [
+                {
+                    "kode": "3323050004",
+                    "nama": "BADRAN"
+                },
+                {
+                    "kode": "3323050001",
+                    "nama": "BENGKAL"
+                },
+                {
+                    "kode": "3323050013",
+                    "nama": "GENTAN"
+                },
+                {
+                    "kode": "3323050012",
+                    "nama": "KEMLOKO"
+                },
+                {
+                    "kode": "3323050009",
+                    "nama": "KRAMAT"
+                },
+                {
+                    "kode": "3323050005",
+                    "nama": "KRANGGAN"
+                },
+                {
+                    "kode": "3323050007",
+                    "nama": "NGROPOH"
+                },
+                {
+                    "kode": "3323050002",
+                    "nama": "PARE"
+                },
+                {
+                    "kode": "3323050006",
+                    "nama": "PENDOWO"
+                },
+                {
+                    "kode": "3323050008",
+                    "nama": "PURWOSARI"
+                },
+                {
+                    "kode": "3323050010",
+                    "nama": "SANGGRAHAN"
+                }
+            ]
+        },
+        {
+            "kode": "3323100",
+            "nama": "NGADIREJO",
+            "desa": [
+                {
+                    "kode": "3323100002",
+                    "nama": "BANJARSARI"
+                },
+                {
+                    "kode": "3323100021",
+                    "nama": "CAMPURSARI"
+                },
+                {
+                    "kode": "3323100018",
+                    "nama": "DLIMOYO"
+                },
+                {
+                    "kode": "3323100014",
+                    "nama": "GANDU WETAN"
+                },
+                {
+                    "kode": "3323100012",
+                    "nama": "GEJAGAN"
+                },
+                {
+                    "kode": "3323100011",
+                    "nama": "GIRIPURNO"
+                },
+                {
+                    "kode": "3323100017",
+                    "nama": "GONDANGWINANGUN"
+                },
+                {
+                    "kode": "3323100006",
+                    "nama": "KARANGGEDONG"
+                },
+                {
+                    "kode": "3323100009",
+                    "nama": "KATAAN"
+                },
+                {
+                    "kode": "3323100001",
+                    "nama": "KATEKAN"
+                },
+                {
+                    "kode": "3323100013",
+                    "nama": "MANGGONG"
+                },
+                {
+                    "kode": "3323100022",
+                    "nama": "MANGUNSARI"
+                },
+                {
+                    "kode": "3323100003",
+                    "nama": "MEDARI"
+                },
+                {
+                    "kode": "3323100008",
+                    "nama": "MUNGGANGSARI"
+                },
+                {
+                    "kode": "3323100016",
+                    "nama": "NGADIREJO"
+                },
+                {
+                    "kode": "3323100015",
+                    "nama": "NGAREN"
+                },
+                {
+                    "kode": "3323100007",
+                    "nama": "PETIREJO"
+                },
+                {
+                    "kode": "3323100010",
+                    "nama": "PRINGAPUS"
+                },
+                {
+                    "kode": "3323100019",
+                    "nama": "PURBOSARI"
+                },
+                {
+                    "kode": "3323100020",
+                    "nama": "TEGALREJO"
+                }
+            ]
+        },
+        {
+            "kode": "3323010",
+            "nama": "PARAKAN",
+            "desa": [
+                {
+                    "kode": "3323010041",
+                    "nama": "BAGUSAN"
+                },
+                {
+                    "kode": "3323010015",
+                    "nama": "CAMPURSALAM"
+                },
+                {
+                    "kode": "3323010012",
+                    "nama": "CATURANOM"
+                },
+                {
+                    "kode": "3323010017",
+                    "nama": "DANGKEL"
+                },
+                {
+                    "kode": "3323010019",
+                    "nama": "DEPOKHARJO"
+                },
+                {
+                    "kode": "3323010037",
+                    "nama": "GLAPANSARI"
+                },
+                {
+                    "kode": "3323010016",
+                    "nama": "MANDISARI"
+                },
+                {
+                    "kode": "3323010042",
+                    "nama": "NGLONDONG"
+                },
+                {
+                    "kode": "3323010013",
+                    "nama": "PARAKAN KAUMAN"
+                },
+                {
+                    "kode": "3323010014",
+                    "nama": "PARAKAN WETAN"
+                },
+                {
+                    "kode": "3323010018",
+                    "nama": "RINGINANOM"
+                },
+                {
+                    "kode": "3323010038",
+                    "nama": "SUNGGINGSARI"
+                },
+                {
+                    "kode": "3323010030",
+                    "nama": "TEGALROSO"
+                },
+                {
+                    "kode": "3323010040",
+                    "nama": "TRAJI"
+                },
+                {
+                    "kode": "3323010039",
+                    "nama": "WANUTENGAH"
+                },
+                {
+                    "kode": "3323010029",
+                    "nama": "WATUKUMPUL"
+                }
+            ]
+        },
+        {
+            "kode": "3323060",
+            "nama": "PRINGSURAT",
+            "desa": [
+                {
+                    "kode": "3323060006",
+                    "nama": "GOWAK"
+                },
+                {
+                    "kode": "3323060005",
+                    "nama": "KARANGWUNI"
+                },
+                {
+                    "kode": "3323060008",
+                    "nama": "NGIPIK"
+                },
+                {
+                    "kode": "3323060012",
+                    "nama": "NGLOROG"
+                },
+                {
+                    "kode": "3323060011",
+                    "nama": "PAGERGUNUNG"
+                },
+                {
+                    "kode": "3323060009",
+                    "nama": "PINGIT"
+                },
+                {
+                    "kode": "3323060004",
+                    "nama": "PRINGSURAT"
+                },
+                {
+                    "kode": "3323060007",
+                    "nama": "REJOSARI"
+                },
+                {
+                    "kode": "3323060013",
+                    "nama": "SOBOREJO"
+                },
+                {
+                    "kode": "3323060002",
+                    "nama": "SOROPADAN"
+                },
+                {
+                    "kode": "3323060014",
+                    "nama": "WONOKERSO"
+                }
+            ]
+        },
+        {
+            "kode": "3323041",
+            "nama": "SELOPAMPANG",
+            "desa": [
+                {
+                    "kode": "3323041010",
+                    "nama": "BAGUSAN"
+                },
+                {
+                    "kode": "3323041004",
+                    "nama": "BULAN"
+                },
+                {
+                    "kode": "3323041012",
+                    "nama": "BUMIAYU"
+                },
+                {
+                    "kode": "3323041008",
+                    "nama": "GAMBASAN"
+                },
+                {
+                    "kode": "3323041002",
+                    "nama": "JETIS"
+                },
+                {
+                    "kode": "3323041007",
+                    "nama": "KACEPIT"
+                },
+                {
+                    "kode": "3323041009",
+                    "nama": "KEBONAGUNG"
+                },
+                {
+                    "kode": "3323041003",
+                    "nama": "NGADITIRTO"
+                },
+                {
+                    "kode": "3323041011",
+                    "nama": "PLUMBON"
+                },
+                {
+                    "kode": "3323041005",
+                    "nama": "SALAMREJO"
+                },
+                {
+                    "kode": "3323041006",
+                    "nama": "SELOPAMPANG"
+                },
+                {
+                    "kode": "3323041001",
+                    "nama": "TANGGULANOM"
+                }
+            ]
+        },
+        {
+            "kode": "3323030",
+            "nama": "TEMANGGUNG",
+            "desa": [
+                {
+                    "kode": "3323030027",
+                    "nama": "BANYUURIP"
+                },
+                {
+                    "kode": "3323030020",
+                    "nama": "GILINGSARI"
+                },
+                {
+                    "kode": "3323030014",
+                    "nama": "GIYANTI"
+                },
+                {
+                    "kode": "3323030012",
+                    "nama": "JAMPIREJO"
+                },
+                {
+                    "kode": "3323030025",
+                    "nama": "JAMPIROSO"
+                },
+                {
+                    "kode": "3323030032",
+                    "nama": "JOHO"
+                },
+                {
+                    "kode": "3323030030",
+                    "nama": "JURANG"
+                },
+                {
+                    "kode": "3323030021",
+                    "nama": "KEBONSARI"
+                },
+                {
+                    "kode": "3323030026",
+                    "nama": "KERTOSARI"
+                },
+                {
+                    "kode": "3323030011",
+                    "nama": "KOWANGAN"
+                },
+                {
+                    "kode": "3323030009",
+                    "nama": "MADURESO"
+                },
+                {
+                    "kode": "3323030022",
+                    "nama": "MANDING"
+                },
+                {
+                    "kode": "3323030006",
+                    "nama": "MUDAL"
+                },
+                {
+                    "kode": "3323030007",
+                    "nama": "NAMPIREJO"
+                },
+                {
+                    "kode": "3323030005",
+                    "nama": "PURWOREJO"
+                },
+                {
+                    "kode": "3323030029",
+                    "nama": "SIDOREJO"
+                },
+                {
+                    "kode": "3323030024",
+                    "nama": "TEMANGGUNG I"
+                },
+                {
+                    "kode": "3323030023",
+                    "nama": "TEMANGGUNG II"
+                },
+                {
+                    "kode": "3323030031",
+                    "nama": "TLOGOREJO"
+                },
+                {
+                    "kode": "3323030033",
+                    "nama": "WALITELON SELATAN"
+                },
+                {
+                    "kode": "3323030034",
+                    "nama": "WALITELON UTARA"
+                }
+            ]
+        },
+        {
+            "kode": "3323040",
+            "nama": "TEMBARAK",
+            "desa": [
+                {
+                    "kode": "3323040023",
+                    "nama": "BANARAN"
+                },
+                {
+                    "kode": "3323040020",
+                    "nama": "BOTOPUTIH"
+                },
+                {
+                    "kode": "3323040026",
+                    "nama": "DRONO"
+                },
+                {
+                    "kode": "3323040021",
+                    "nama": "GANDU"
+                },
+                {
+                    "kode": "3323040028",
+                    "nama": "JRAGAN"
+                },
+                {
+                    "kode": "3323040017",
+                    "nama": "KEMLOKO"
+                },
+                {
+                    "kode": "3323040027",
+                    "nama": "KRAJAN"
+                },
+                {
+                    "kode": "3323040014",
+                    "nama": "MENGGORO"
+                },
+                {
+                    "kode": "3323040015",
+                    "nama": "PURWODADI"
+                },
+                {
+                    "kode": "3323040018",
+                    "nama": "TAWANGSARI"
+                },
+                {
+                    "kode": "3323040013",
+                    "nama": "TEMBARAK"
+                },
+                {
+                    "kode": "3323040012",
+                    "nama": "WONOKERSO"
+                }
+            ]
+        },
+        {
+            "kode": "3323031",
+            "nama": "TLOGOMULYO",
+            "desa": [
+                {
+                    "kode": "3323031009",
+                    "nama": "BALEREJO"
+                },
+                {
+                    "kode": "3323031012",
+                    "nama": "CANDISARI"
+                },
+                {
+                    "kode": "3323031004",
+                    "nama": "GEDEGAN"
+                },
+                {
+                    "kode": "3323031008",
+                    "nama": "KEROKAN"
+                },
+                {
+                    "kode": "3323031011",
+                    "nama": "LANGGENG"
+                },
+                {
+                    "kode": "3323031003",
+                    "nama": "LEGOKSARI"
+                },
+                {
+                    "kode": "3323031002",
+                    "nama": "LOSARI"
+                },
+                {
+                    "kode": "3323031001",
+                    "nama": "PAGERSARI"
+                },
+                {
+                    "kode": "3323031010",
+                    "nama": "SRIWUNGU"
+                },
+                {
+                    "kode": "3323031007",
+                    "nama": "TANJUNGSARI"
+                },
+                {
+                    "kode": "3323031005",
+                    "nama": "TLILIR"
+                },
+                {
+                    "kode": "3323031006",
+                    "nama": "TLOGOMULYO"
+                }
+            ]
+        },
+        {
+            "kode": "3323130",
+            "nama": "TRETEP",
+            "desa": [
+                {
+                    "kode": "3323130022",
+                    "nama": "BENDUNGAN"
+                },
+                {
+                    "kode": "3323130014",
+                    "nama": "BOJONG"
+                },
+                {
+                    "kode": "3323130009",
+                    "nama": "BONJOR"
+                },
+                {
+                    "kode": "3323130007",
+                    "nama": "CAMPUREJO"
+                },
+                {
+                    "kode": "3323130012",
+                    "nama": "DONOROJO"
+                },
+                {
+                    "kode": "3323130011",
+                    "nama": "NGLARANGAN"
+                },
+                {
+                    "kode": "3323130010",
+                    "nama": "SIGEDONG"
+                },
+                {
+                    "kode": "3323130023",
+                    "nama": "SIMPAR"
+                },
+                {
+                    "kode": "3323130008",
+                    "nama": "TEMPELSARI"
+                },
+                {
+                    "kode": "3323130024",
+                    "nama": "TLOGO"
+                }
+            ]
+        },
+        {
+            "kode": "3323131",
+            "nama": "WONOBOYO",
+            "desa": [
+                {
+                    "kode": "3323131002",
+                    "nama": "CEMORO"
+                },
+                {
+                    "kode": "3323131008",
+                    "nama": "KEBONSARI"
+                },
+                {
+                    "kode": "3323131007",
+                    "nama": "PATEKEN"
+                },
+                {
+                    "kode": "3323131011",
+                    "nama": "PESANTREN"
+                },
+                {
+                    "kode": "3323131005",
+                    "nama": "PITROSARI"
+                },
+                {
+                    "kode": "3323131006",
+                    "nama": "PURWOSARI"
+                },
+                {
+                    "kode": "3323131004",
+                    "nama": "REJOSARI"
+                },
+                {
+                    "kode": "3323131003",
+                    "nama": "TAWANGSARI"
+                },
+                {
+                    "kode": "3323131013",
+                    "nama": "TENING"
+                },
+                {
+                    "kode": "3323131001",
+                    "nama": "WATES"
+                },
+                {
+                    "kode": "3323131009",
+                    "nama": "WONOBOYO"
+                },
+                {
+                    "kode": "3323131012",
+                    "nama": "WONOCOYO"
+                }
+            ]
+        }
+    ]
+}
