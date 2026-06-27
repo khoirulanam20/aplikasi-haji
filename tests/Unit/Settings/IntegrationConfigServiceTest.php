@@ -140,6 +140,22 @@ class IntegrationConfigServiceTest extends TestCase
         $this->assertSame('haji.example.com', config('starterkit.hajj_participant_email_domain'));
     }
 
+    public function test_legacy_boolean_cache_does_not_block_apply(): void
+    {
+        config(['starterkit.hajj_participant_email_domain' => 'peserta-haji.local']);
+
+        AppConfig::singleton()->update([
+            'hajj_participant_email_domain' => 'haji.example.com',
+        ]);
+
+        Cache::forever('app_config_applied', true);
+
+        $service = app(IntegrationConfigService::class);
+        $service->apply();
+
+        $this->assertSame('haji.example.com', config('starterkit.hajj_participant_email_domain'));
+    }
+
     public function test_google_oauth_enabled_requires_client_id_and_secret(): void
     {
         config([

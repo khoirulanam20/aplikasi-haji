@@ -5,6 +5,7 @@ namespace App\Support\Hajj;
 use App\Models\HajjParticipant;
 use App\Models\Role;
 use App\Models\User;
+use App\Support\Settings\IntegrationConfigService;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 use RuntimeException;
@@ -16,6 +17,8 @@ class HajjParticipantUserProvisioner
      */
     public function provision(HajjParticipant $participant, ?string $email = null): array
     {
+        app(IntegrationConfigService::class)->apply();
+
         $roleName = (string) config('starterkit.hajj_participant_role', 'user');
 
         if (! Role::query()->where('name', $roleName)->where('is_active', true)->exists()) {

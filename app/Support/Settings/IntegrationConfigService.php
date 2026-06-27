@@ -8,7 +8,9 @@ use Illuminate\Support\Facades\Schema;
 
 class IntegrationConfigService
 {
-    private const CACHE_KEY = 'app_config_applied';
+    private const CACHE_KEY = 'app_config_row';
+
+    private const LEGACY_CACHE_KEY = 'app_config_applied';
 
     public function apply(): void
     {
@@ -34,6 +36,7 @@ class IntegrationConfigService
     public function forgetCache(): void
     {
         Cache::forget(self::CACHE_KEY);
+        Cache::forget(self::LEGACY_CACHE_KEY);
     }
 
     public function googleOAuthEnabled(): bool
