@@ -124,6 +124,22 @@ class IntegrationConfigServiceTest extends TestCase
         $this->assertSame('#alerts', config('services.slack.notifications.channel'));
     }
 
+    public function test_apply_still_overrides_env_when_cache_is_warm(): void
+    {
+        config(['starterkit.hajj_participant_email_domain' => 'peserta-haji.local']);
+
+        AppConfig::singleton()->update([
+            'hajj_participant_email_domain' => 'haji.example.com',
+        ]);
+
+        $service = app(IntegrationConfigService::class);
+        $service->forgetCache();
+        $service->apply();
+        $service->apply();
+
+        $this->assertSame('haji.example.com', config('starterkit.hajj_participant_email_domain'));
+    }
+
     public function test_google_oauth_enabled_requires_client_id_and_secret(): void
     {
         config([

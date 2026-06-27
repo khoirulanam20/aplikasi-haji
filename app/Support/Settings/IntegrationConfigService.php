@@ -16,15 +16,9 @@ class IntegrationConfigService
             return;
         }
 
-        if (Cache::get(self::CACHE_KEY) === true) {
-            return;
-        }
+        $config = Cache::rememberForever(self::CACHE_KEY, fn () => AppConfig::query()->first());
 
-        $config = AppConfig::query()->first();
-
-        if (! $config) {
-            Cache::forever(self::CACHE_KEY, true);
-
+        if (! $config instanceof AppConfig) {
             return;
         }
 
@@ -35,8 +29,6 @@ class IntegrationConfigService
         $this->applySecurity($config);
         $this->applySentry($config);
         $this->applyExtraServices($config);
-
-        Cache::forever(self::CACHE_KEY, true);
     }
 
     public function forgetCache(): void
