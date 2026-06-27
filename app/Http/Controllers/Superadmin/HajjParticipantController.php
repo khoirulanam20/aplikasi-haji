@@ -120,11 +120,11 @@ class HajjParticipantController extends Controller
 
     public function destroy(HajjParticipant $hajjParticipant): RedirectResponse
     {
-        if ($hajjParticipant->user) {
-            $hajjParticipant->user->update(['is_active' => false]);
-        }
+        $user = $hajjParticipant->user;
 
         $hajjParticipant->delete();
+
+        $user?->delete();
 
         return back()->with('status', 'deleted');
     }

@@ -3,6 +3,7 @@
 namespace App\Support\Hajj;
 
 use App\Models\HajjParticipant;
+use App\Support\Settings\IntegrationConfigService;
 use Illuminate\Support\Facades\DB;
 use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
 use PhpOffice\PhpSpreadsheet\IOFactory;
@@ -480,7 +481,15 @@ class HajjExcelImportService
             ]);
 
             if ($participant->user) {
-                $participant->user->update(['name' => $rowData['nama']]);
+                app(IntegrationConfigService::class)->apply();
+                $domain = (string) config('starterkit.hajj_participant_email_domain', 'peserta-haji.local');
+                $username = (string) $participant->user->username;
+
+                $participant->user->update([
+                    'name' => $rowData['nama'],
+                    'is_active' => true,
+                    'email' => $username !== '' ? $username.'@'.$domain : $participant->user->email,
+                ]);
             } else {
                 $this->provisioner->provision($participant->fresh());
             }

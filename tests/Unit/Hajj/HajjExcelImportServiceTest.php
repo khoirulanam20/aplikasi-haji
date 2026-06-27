@@ -2,12 +2,17 @@
 
 namespace Tests\Unit\Hajj;
 
+use App\Models\HajjParticipant;
+use App\Models\Role;
+use App\Models\User;
 use App\Support\Hajj\HajjExcelImportService;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use ReflectionMethod;
 use Tests\TestCase;
 
 class HajjExcelImportServiceTest extends TestCase
 {
+    use RefreshDatabase;
     public function test_bare_no_header_does_not_match_nomor_porsi_alias(): void
     {
         $service = app(HajjExcelImportService::class);
@@ -67,5 +72,45 @@ class HajjExcelImportServiceTest extends TestCase
 
         $this->assertFalse($method->invoke($service, 'telepon', 'no', 'no telp'));
         $this->assertTrue($method->invoke($service, 'telepon', 'no telp/hp', 'no telp'));
+    }
+
+    public function test_replace_existing_reactivates_inactive_user_and_updates_email(): void
+    {
+        config(['starterkit.hajj_participant_email_domain' => 'haji.example.com']);
+
+        Role::create(['name' => 'user', 'guard_name' => 'web', 'title' => 'User', 'is_active' => true]);
+
+        $user = User::factory()->create([
+            'username' => '1100458689',
+            'email' => '1100458689@peserta-haji.local',
+            'is_active' => false,
+        ]);
+
+        HajjParticipant::create([
+            'tahun_haji' => 2024,
+            'nomor_porsi' => '1100458689',
+            'nama' => 'Nama Lama',
+            'user_id' => $user->id,
+        ]);
+
+        $service = app(HajjExcelImportService::class);
+        $method = new ReflectionMethod($service, 'replaceExisting');
+        $method->invoke($service, 2024, [
+            'nomor_porsi' => '1100458689',
+            'nama' => 'Nama Baru',
+            'alamat' => null,
+            'desa' => null,
+            'kecamatan' => null,
+            'telepon' => null,
+            'kloter' => null,
+            'rombongan' => null,
+            'regu' => null,
+        ], 1);
+
+        $user->refresh();
+
+        $this->assertTrue($user->is_active);
+        $this->assertSame('Nama Baru', $user->name);
+        $this->assertSame('1100458689@haji.example.com', $user->email);
     }
 }

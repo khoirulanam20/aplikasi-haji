@@ -29,6 +29,7 @@ class HajjParticipantUserProvisionerTest extends TestCase
         $result = app(HajjParticipantUserProvisioner::class)->provision($participant);
 
         $this->assertSame('1100458689@haji.example.com', $result['user']->email);
+        $this->assertTrue($result['user']->is_active);
         $this->assertInstanceOf(User::class, $result['user']);
     }
 
