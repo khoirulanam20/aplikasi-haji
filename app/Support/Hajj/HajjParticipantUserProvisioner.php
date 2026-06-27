@@ -17,7 +17,8 @@ class HajjParticipantUserProvisioner
      */
     public function provision(HajjParticipant $participant, ?string $email = null): array
     {
-        app(IntegrationConfigService::class)->apply();
+        $integrationConfig = app(IntegrationConfigService::class);
+        $integrationConfig->apply();
 
         $roleName = (string) config('starterkit.hajj_participant_role', 'user');
 
@@ -26,7 +27,7 @@ class HajjParticipantUserProvisioner
         }
 
         $username = $this->resolveUsername($participant);
-        $domain = (string) config('starterkit.hajj_participant_email_domain', 'peserta-haji.local');
+        $domain = $integrationConfig->hajjParticipantEmailDomain();
         $email = $email ?: $username.'@'.$domain;
         $password = Str::password(12);
 

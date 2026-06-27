@@ -481,8 +481,7 @@ class HajjExcelImportService
             ]);
 
             if ($participant->user) {
-                app(IntegrationConfigService::class)->apply();
-                $domain = (string) config('starterkit.hajj_participant_email_domain', 'peserta-haji.local');
+                $domain = app(IntegrationConfigService::class)->hajjParticipantEmailDomain();
                 $username = (string) $participant->user->username;
 
                 $participant->user->update([

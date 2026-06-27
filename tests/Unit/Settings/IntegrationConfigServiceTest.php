@@ -140,6 +140,36 @@ class IntegrationConfigServiceTest extends TestCase
         $this->assertSame('haji.example.com', config('starterkit.hajj_participant_email_domain'));
     }
 
+    public function test_hajj_participant_email_domain_falls_back_when_runtime_config_is_empty(): void
+    {
+        config(['starterkit.hajj_participant_email_domain' => '']);
+
+        AppConfig::singleton()->update([
+            'hajj_participant_email_domain' => null,
+        ]);
+
+        $service = app(IntegrationConfigService::class);
+        $service->forgetCache();
+
+        $this->assertSame('peserta-haji.local', $service->hajjParticipantEmailDomain());
+    }
+
+    public function test_db_email_domain_wins_over_empty_env(): void
+    {
+        config(['starterkit.hajj_participant_email_domain' => '']);
+
+        AppConfig::singleton()->update([
+            'hajj_participant_email_domain' => 'haji.example.com',
+        ]);
+
+        $service = app(IntegrationConfigService::class);
+        $service->forgetCache();
+        $service->apply();
+
+        $this->assertSame('haji.example.com', $service->hajjParticipantEmailDomain());
+        $this->assertSame('haji.example.com', config('starterkit.hajj_participant_email_domain'));
+    }
+
     public function test_legacy_boolean_cache_does_not_block_apply(): void
     {
         config(['starterkit.hajj_participant_email_domain' => 'peserta-haji.local']);
